@@ -10,13 +10,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>BMI健康診断/title>
+<title>BMI健康診断</title>
 </head>
 <body>
 <h1>BMI健康診断の結果</h1>
 <p>
-身長: <%=health.getHeight() %><br>
-体重: <%=health.getWeight() %><br>
+
+身長: <%=health.getHeight() %>(cm)<br>
+体重: <%=health.getWeight() %>(kg)<br>
 BMI: <%=health.getBmi() %><br>
 体型: <%=health.getBodyType() %>
 </p>
