@@ -1,6 +1,7 @@
 package servlet;
 
 import jakarta.servlet.RequestDispatcher;
+import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -11,8 +12,8 @@ import model.Human;
 import model.HealthCheckLogic;
 
 /**
- * Servlet implementation class HealthCheck
- @WebServlet("/HealthCheck)
+ * Servlet implementation class HealthCheck 
+ * @WebServlet("/HealthCheck")
  */
 public class HealthCheck extends HttpServlet {
 	private static final long serialVersionUID = 1L;
